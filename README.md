@@ -25,6 +25,7 @@ Once the repository is installed, you can then installed the google-authenticato
 **Scan the bar code or enter it manually into the Google Auth app on your phone.**
 
 <ins>**Choose where you’d like to enable 2 Factor. SSH, Login, and others**</ins>
+
 <ins>*SSH 2 Factor*</ins>
 
     1.Add "auth required pam_google_authenticator.so" to the end of /etc/pam.d/sshd file.
