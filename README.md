@@ -29,7 +29,9 @@ Once the repository is installed, you can then installed the google-authenticato
 <ins>*SSH 2 Factor*</ins>
 
 Add "auth required pam_google_authenticator.so" to the end of the /etc/pam.d/sshd file.
+
 Change "ChallengeResponseAuthentication no" to "ChallengeResponseAuthentication yes" in the /etc/ssh/sshd_config file.
+
 Restart ssh: sudo systemctl restart sshd
     
 <ins> *Gnome Login 2 Factor*</ins>
